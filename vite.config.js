@@ -1,10 +1,13 @@
+/// <reference types="vitest" />
 import { defineConfig } from "vite";
 import { createHtmlPlugin } from "vite-plugin-html";
 import siteConfig from "./site-config.json" with { type: "json" };
 import { VitePWA } from "vite-plugin-pwa";
+import vue from "@vitejs/plugin-vue";
 
 export default defineConfig({
   plugins: [
+    vue(),
     VitePWA({
       registerType: "autoUpdate",
       workbox: {

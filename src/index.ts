@@ -1,5 +1,4 @@
-const root = document.getElementById("root");
+import { createApp } from "vue";
+import App from "./components/App.vue";
 
-if (root) {
-  root.innerHTML = '<p style="font-size: 50px;">Application is alive</p>';
-}
+createApp(App).mount("#root");
