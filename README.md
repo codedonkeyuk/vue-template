@@ -1,6 +1,6 @@
 # vue-template
 
-Simple Vue / Vite template containing. Starting point for future JS apps.
+Simple Vue / Vite template. Starting point for future JS apps.
 
 Vite has been configured to generate icons off a single svg file. This svg file is also used for social media image. You need to edit [./public/logo-square.svg](./public/logo-square.svg) to change all the images used in the app for social sharing and icons.
 
